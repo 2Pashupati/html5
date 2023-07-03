@@ -1,0 +1,54 @@
+.signup-form div {
+    /* border: 1px solid red; */
+}
+
+.form-control {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin: 0 0 10px 0;
+}
+
+.form-input {
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.form-checkbox {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.form-checkbox-control {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-radio{
+    padding: 10px;
+
+}
+.radio-2{
+    margin: 20px;
+}
+.radio-1{
+    margin: 20px;
+}
+
+#name-error-message {
+    display: none;
+}
+
+#submit:hover {
+    background-color: red;
+}

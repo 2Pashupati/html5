@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <form class="signup-form" action="">
+            <div class="form-control">
+                <label class="form-label" for="name">Name</label>
+                <input id="name" class="form-input" type="text">
+                <span style="color:red" id="name-error-message"> Please eneter valid name</span>
+            </div>
+            <div class="form-control">
+                <label class="form-label" for="emai">Email</label>
+                <input id="email" class="form-input" placeholder="enter your email" type="email">
+            </div>
+            <div class="form-control">
+                <label class="form-label" for="phone">phone</label>
+                <input id="phone" class="form-input" type="number">
+            </div>      
+        </div>
+        <div class="form-control">
+            <span>Best time to call</span>
+            <div class="form-checkbox-control">
+                <input class="form-checkbox" type="checkbox" value="morning" name="time"> Morning
+            </div>
+            <div class="form-checkbox-control">
+                <input class="form-checkbox" type="checkbox" value="afternoon" name="time"> Afternoon 
+            </div>
+            <div class="form-checkbox-control">
+                <input class="form-checkbox" type="checkbox" value="evening" name="time"> Evening 
+            </div>
+        </div>
+    </form>
+        <span >gender</span>
+         <div class="radio">
+            <div class="form-radio">
+        <input class="radio-1"  type="radio" value="gender" name="class">male
+    </div>
+    <div class="form-radio">
+        <input class="radio-2" type="radio" value="gender" name="class">Female
+    </div>
+    </div>
+    </div>
+
+    <button type="button" id="submit"> Submit </button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

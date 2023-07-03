@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(230,234,248);
+    height: 100vh;
+}
+
+
+.main{
+    margin: 80px 80px; 80px;
+    background-color: white;
+    border-radius: 30px;
+}
+.header{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 190px;
+}
+.button-1{
+    height: 35px;
+    width: 200px;
+    background:none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 190px;
+}
+.header-button{
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color:rgb(132,159,255) ;
+  border-radius: 5px;
+  border: none;
+}
+
+ .nav-left{
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
+    margin-top: 27px;
+    gap: 50px;   
+} 
+.nav-bar{
+    display: flex;
+}
+.main-A,.main-b{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around; 
+    background-color: rgb(251,252,255);  
+}
+.img-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.span-2 {
+}
+.sub-button-1,.sub-button-4{
+     padding: 10px;
+     border-color:darkgrey;
+}
+.sub-button-c1{
+    border-color: darkgrey;
+}
+.span-1 {
+}
+.main-upper-left{
+    
+    padding: 15px;
+    border-radius: 20px;
+   
+}
+.sub-button-1,.sub-button-2,.sub-button-3,.sub-button-4,.sub-button-5,.sub-button-c1,.sub-button-c2{
+    color: #6881D9;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-color:gray
+}
+.main-upper-center{
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+
+.main-upper-left, .main-upper-center, .main-upper-right {
+    display: flex;
+    align-items: center;
+}
+
+.right-container {
+    margin-left: 20PX;
+}
