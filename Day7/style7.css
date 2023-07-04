@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(165,215,226);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.all{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 28px;
+    padding-left: 10px;
+    height: 680px;
+    width: 1300px;
+    position: absolute;
+    left: 50px;
+}
+.header{
+    display: flex;
+    margin: 30px;
+}
+.header-box {
+    height: 18px;
+    width: 250px;
+    margin-left: 170px;
+    border: none;
+}
+ .cart{
+    margin-left:380px ;
+}
+.profile{
+    margin-left: 50px;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 50px;
+}
+.nav-span-2,.nav-span-1,.la-more{
+    font-size: 20px;
+    font-weight: bold;
+}
+ .nav-button{
+      display: flex;
+      gap: 25px;
+
+} 
+.nav-bar{
+    display: flex;
+    justify-content:flex-start ;
+    margin-left: 20px;
+    gap: 300px;
+}
+.nav-button-1{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+}
+.main-left{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p1,.p2{
+          height: 100px;
+          width: 500px;
+          border: 2px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+          border-radius: 10px;
+          border: none;
+}
+.main-center-upper{
+    position: relative;
+    left: 180px;
+    bottom: 315px;
+}
+.p1{
+    background-color: rgb(187,231,239);
+}
+.p2{
+    background-color: rgb(223,200,242);
+}
+.center-img-1,.center-img-2,.main-left-img-2,.main-left-img-1{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+.q1,.q2{
+    height: 100px;
+          width: 500px;
+          border: 2px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+          border-radius: 10px;
+          border: none;
+}
+.q1{
+    background-color: rgb(251,227,133);
+}
+.q2{
+    background-color: rgb(248,202,218);
+}
+/* .main-left{
+    position: relative;
+    left: 695px;
+    bottom:645px;
+} */
+.main-left-1{
+    position: relative;
+    left: 700px;
+    bottom: 850px;
+}
